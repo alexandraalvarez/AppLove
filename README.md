@@ -1,8 +1,30 @@
-# AppLove
 
-Para completar tu web **AppLove** hemos creado este repositorio boilerplate (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
+1. Reciclo las etiquetas a, a:hover y text-uppercase. 
+2. Le doy formato base al body.
+3. Le doy formato al header, y lo posiciono fijo, con z-index y fondo blanco.
+4. Le doy formato a los elementos a del header para que tomen las posiciones deseadas como bloques en línea, con los márgenes deseados.
+5. Le doy posición y tamaño al logo.
+6. Le doy formato a la primera sección, sección a.
+7. Le doy formato general a los textos.
+8. Escondo la imagen, para que aparezca solo como fondo.
+9. Le doy formato detallado a cada uno de los textos 
+10. Le doy formato especial al link
+11. Cambio de sección y le doy formato general se la sección b.
+12. Le doy formato al h2.
+13. Formato general a todos los textos. 
+14. Formato detallado del primer H4.
+15. Le doy formato a cada imagen con su texto independiente.
+16. Le doy formato a cada imagen circular.
+17. Le doy formato exta al último elemento H6. 
+18. Cambio de sección y le doy formato general.
+19. Formato específico al título y subtítulo.
+20. Formato a la imagen grande.
+21. Formato para mover juntos el texto y su respectiva imagen.
+22. Formato para posicionar las imágenes y sus textos.
+23. Tamaño de imagen.
+24. Formato del footer. 
 
-## Empieza por realizar un fork y clonar este repositorio
+
 
 1. Debes realizar un **fork** de este repositorio.
 
@@ -18,35 +40,6 @@ Para completar tu web **AppLove** hemos creado este repositorio boilerplate (pla
         ~ git push origin master
         ```
 
-## Objetivo Final
-
-El reto consiste en maquetar la web **AppLove**, este es el resultado final:
-
-![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
-
-## Detalles adicionales
-
-- Encontrarás un archivo base `index.html` el cual contiene una estructura inicial sobre la que deberás completar tu proyecto.
-
-- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo: 
-
-    ```CSS
-    .text-uppercase {
-      text-transform: uppercase;
-    }
-    ```
-
-    >Si usamos la clase `.text-uppercase` en algún texto lo que hará es ponerlo en mayúsculas. De esta manera podrás reutilizar esta clase varias veces. **No olvides enlazar tu archivo `CSS` a tu `HTML`**.
-
-- El `header` tiene que estar **estático**, como se muestra en la siguiente _imagen gif_:
-
-![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif) 
-
-- Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositorio.
-
-- El tipo de fuente a utilizar será `Raleway`.
 
 ## Consideraciones generales
 
