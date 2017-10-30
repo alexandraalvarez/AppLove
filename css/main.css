@@ -1,5 +1,5 @@
 /*CLASES REUTILIZABLES*/
-* {
+/* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -12,6 +12,7 @@
 }
 
 body {
+  outline: 1px solid black;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
@@ -21,20 +22,23 @@ img {
   vertical-align: middle;
 }
 
-.container {
-  width: 1200px;
+.container { entiendo que la etiqueta container va en el div con la imagen service-2  
+  /*width: 1200px;
   margin-right: auto;
   margin-left: auto;
   padding-left: 14px;
   padding-right: 14px;
 }
 
-.container:before, .container:after {
+.container:before, .container:after { entiendo que container:before afectará al div que contiene la imagen service-1, 
+  y after al de la imagen que contiene service-3
   content: " ";
   display: table;
 }
 
 *:before, *:after {
+  width: 1em;
+  height: 1em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -54,20 +58,188 @@ img {
 
 .m-0 {
   margin: 0px;
-}
+}*/
 
-a {
+a { /*para darle color a los enlaces y quitarle la línea de abajo*/
   color: #373B47;
   text-decoration: none;
 }
 
-a:hover {
+a:hover { /*para darle efecto cuando el mouse esté posado encima*/
   color: #E95853;
 }
 
-.text-uppercase {
+.text-uppercase { /*para pasar las letras a mayúscula*/
   text-transform: uppercase;
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body { /*formato base del cuerpo*/
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+}
+
+/*formato del header y sus elementos*/
+
+header { /*formato general del header, color de fondo*/
+  /*outline: 2px solid black;*/
+  background: #FFFFFF;
+  position: fixed;
+  z-index: 3;
+  margin: 0 auto;
+}
+
+header a { /*los elementos a se muestra como bloque en línea con sus respectivos margins*/
+  display: inline-block;
+  margin-left: 4.8em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+header div a:last-of-type, header div a:nth-child(even) {
+  margin-left: 2.5em; //*el elemento del medio y el último tienen un margin izquierdo distinto*/
+}
+
+.logo { /*posicionando el logo triangular y dándole dimensiones*/
+  width: 3.44em;
+  height: 3em;
+  margin-left: 45em;
+  margin-right: 7.2em;
+}
+
+/*Formato de la sección a*/
+
+.section-a { /*formayo general de la sección*/
+  background-image: url("../assets/bg-home.jpg"); /*Para usar la imagen como fondo de la sección*/
+  color: #FFFFFF; /*color de letra blanco*/
+  padding: 7.5em 0 ;
+  position: relative;
+  margin: 0 auto;
+  /*outline: 2px solid black; linea temporal para ver los bordes de la sección*/
+}
+
+.section-a p, h2, h1 {/*Alineando al centro los elementos h y p de la sección*/
+  text-align: center;
+}
+
+#section-a-h2 {¨/*para darle margen superior y tamaño al título*/
+  padding: 5.3em; /*¿por qué no aparece ni padding ni border?*/
+  font-size: 1.2em;
+} 
+
+.section-a div h1 { /*para darle margen y tamaño al subtítulo*/
+  /*margin-top: 5.3em;*/
+  font-size: 2.5em;
+}
+
+.section-a div p { /*para darle margen y tamaño al párrafo*/
+  margin-top: 2em;
+  margin-bottom: 5.4em;
+  font-size: 1em;
+}
+
+.section-a div a { /*para el botón de enlace*/
+  background-color: #2EFE64; /*color verde*/
+  margin-left: 33.5em;
+  margin-bottom: 8.6em;
+  font-size: 1em;
+  padding: 1em;
+}
+
+/*formato de la sección b*/
+
+.section-b { /*formato general de la sección b*/
+  /*outline: 2px solid black; linea para hacer visible el límite de la sección*/
+  color: #FFFFFF;
+  background-color: #ED826E;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0.05em 0 3em 0; 
+}
+
+#section-b-h2 { /*hay algo extraño que no me deja darle formato a los h2*/
+  font-size: 1.7em;
+  margin-top: 5.5em;/*separaciones medidas con regla entre el h2 y el margen de su sección*/
+  margin-bottom: 3.5em;/* separaciones medidas con regla entre el h2 y el h4 que le sigue*/
+}
+
+.section-b div h4, h5, h6 { /*para darle a los h de la sección el mismo margin, padding y tamaño de fuente, medido*/
+  margin: 0 auto;
+  padding: 0 auto;
+  font-size: 1em;
+}
+
+.section-b div h4:first-child { /*para darle margen inferior al h4 de la sección*/
+  margin-bottom: 5.8em;
+}
+
+.column { /*para que se vean las imágenes redonditas una al lado de la otra*/
+  display: inline-block;
+  width: 23em;
+}
+
+.services { /*definiendo parámetro de las imágenes redonditas*/
+  width: 200px;
+  height: 200px;
+  margin-top: 5.6em;
+  margin-right: 4.7em;
+  margin-left: 4.7em;
+  margin-bottom: 1.7em;
+}
+
+.last-h6 {/*para darle una distancia hasta el borde de la sección*/
+  padding-bottom: 4.8em;
+}
+
+/*formato general de la sección c*/
+
+.section-c { /*parámetro comunes a la sección*/
+  /*outline: 2px solid black;*/
+  position: relative;
+  margin: 0 auto;
+}
+
+#section-c-h2 {/*formato del título de la sección*/
+  padding-top: 2.6em;
+  font-size: 1.8em;
+}
+
+#section-c-h4 {/*formato del subtitulo de la sección*/
+  text-align: center;
+  padding-top: 3.1em;
+}
+
+.hero { /*formato de foto hero*/
+  width: 940px;
+  height: 910px;
+  margin-top: 3.6em;
+  position: relative;
+  left: 10em;
+}
+
+.image-text { /*para que se vean en línea las imágenes*/
+  display: inline-block;
+  text-align: center;
+  margin-left: 3.4em;
+  padding: 1em 0 0 0;
+}
+
+.section-c .left {
+  margin-left: 8.2em
+}
+
+.images { /*formato de las imágenes*/
+  width: 300px;
+  height: 250px;
+}
+
+ footer { /*formato del footer*/
+  /*outline: 2px solid black;*/
+  padding: 1em;
+  text-align: center;
+  background-color: #6E6E6E
+}
+
+
+
 

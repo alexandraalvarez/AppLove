@@ -6,23 +6,22 @@
 5. Le doy posición y tamaño al logo.
 6. Le doy formato a la primera sección, sección a.
 7. Le doy formato general a los textos.
-8. Escondo la imagen, para que aparezca solo como fondo.
-9. Le doy formato detallado a cada uno de los textos 
-10. Le doy formato especial al link
-11. Cambio de sección y le doy formato general se la sección b.
-12. Le doy formato al h2.
-13. Formato general a todos los textos. 
-14. Formato detallado del primer H4.
-15. Le doy formato a cada imagen con su texto independiente.
-16. Le doy formato a cada imagen circular.
-17. Le doy formato exta al último elemento H6. 
-18. Cambio de sección y le doy formato general.
-19. Formato específico al título y subtítulo.
-20. Formato a la imagen grande.
-21. Formato para mover juntos el texto y su respectiva imagen.
-22. Formato para posicionar las imágenes y sus textos.
-23. Tamaño de imagen.
-24. Formato del footer. 
+8. Le doy formato detallado a cada uno de los textos 
+9. Le doy formato especial al link
+10. Cambio de sección y le doy formato general se la sección b.
+11. Le doy formato al h2.
+12. Formato general a todos los textos. 
+13. Formato detallado del primer H4.
+14. Le doy formato a cada imagen con su texto independiente.
+15. Le doy formato a cada imagen circular.
+16. Le doy formato exta al último elemento H6. 
+17. Cambio de sección y le doy formato general.
+18. Formato específico al título y subtítulo.
+19. Formato a la imagen grande.
+20. Formato para mover juntos el texto y su respectiva imagen.
+21. Formato para posicionar las imágenes y sus textos.
+22. Tamaño de imagen.
+23. Formato del footer. 
 
 
 
